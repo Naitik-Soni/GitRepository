@@ -76,6 +76,7 @@
 			if(min==60){
 				min=0;
 				hour++;
+				hour="0"+hour;
 			}
 			if(sec==60){
 				sec=0;
@@ -86,9 +87,6 @@
 			}
 			if(sec<10){
 				sec="0"+sec;
-			}
-			if(hour<10 && sec==0){
-				hour="0"+hour;
 			}
 			document.getElementById('Swatch').innerHTML = hour + ":" + min + ":" + sec;
 			myVar = setTimeout(Start, 1000);
