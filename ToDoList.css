@@ -42,6 +42,8 @@ pre{
 	body{
 		padding: 15px;
 		display: block;
+		max-width: 100%;
+		overflow: hidden;
 	}
 	input[type="text"]{
 		max-width: 70%;
@@ -51,7 +53,7 @@ pre{
 		line-height: 50px;
 		max-width: 95%;
 	}
-	.comtainer{
+	.container{
 		max-width: 96%;
 	}
 }
