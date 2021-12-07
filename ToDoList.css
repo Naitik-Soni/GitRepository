@@ -38,3 +38,20 @@ pre{
 	font-weight: 600;
 	font-size: 14px;
 }
+@media (max-width: 920px){
+	body{
+		padding: 15px;
+		display: block;
+	}
+	input[type="text"]{
+		max-width: 70%;
+	}
+	form{
+		display: block;
+		line-height: 50px;
+		max-width: 95%;
+	}
+	.comtainer{
+		max-width: 96%;
+	}
+}
