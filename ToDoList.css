@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 50px;
+}
+input[type="text"]{
+	width: 300px;
+	padding: 5px 10px;
+	font-family: verdana;
+	font-size: 16px;
+	border: 2px solid grey;
+	outline: none;
+}
+input[type="button"]{
+	width: 100px;
+	background-color: black;
+	font-size: 16px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+	padding: 5px 10px;
+	border: 2px solid black;
+	margin-left: 10px;
+}
+form{
+	display: flex;
+}
+h1{
+	font-family: verdana;
+}
+ul{
+	list-style-type: decimal;
+	font-size: 16px;
+	font-family: verdana;
+	line-height: 20px;
+}
+pre{
+	color: red;
+	font-weight: 600;
+	font-size: 14px;
+}
