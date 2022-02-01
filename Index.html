@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+    <!--Navigation menu -->
+    <section class="header">
+      <nav>
+        <div class="logo">
+          <img src="Logo.png" alt="University-Logo" width="80px">
+        </div>
+        <div class="Links" id="linkme">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Programs</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="header-content">
+        <h1>World's Best University</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+        <a href="" class="visit-link">Visit to know more</a>
+      </div>
+    </section>
+
+
+  <!--  Other places of University  -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="london.png">
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="newyork.png">
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="washington.png">
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses section     -->
+    <section class="courses">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="course-row">
+        <div class="container">
+          <h3>Begginer</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+        <div class="container">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+        <div class="container">
+          <h3>Expert</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+      </div>
+    </section>
+<!-- Facilities section -->
+    <section class="facility">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <div class="facility-row">
+        <div class="image">
+          <img src="library.png">
+          <div class="content">
+            <h3>Library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="basketball.png">
+          <div class="content">
+            <h3>Playground</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="cafeteria.png">
+          <div class="content">
+            <h3>Cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Online courses -->
+    <section class="banner">
+      <div class="content">
+        <div class="text">
+          <h3>Enroll for our various online courses <br>anywhere from the world </h3>
+          <a href="">Contact us</a>
+        </div>
+      </div>
+    </section>
+<!-- Footer section -->
+    <footer>
+      <h3>About us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+      <br>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <br><br>
+      <p>Made by @Naitik Soni</p>
+    </footer>
+
+<script type="text/javascript">
+  var linkme = document.getElementById('linkme');
+  function hideMenu(){
+    linkme.style.right = "-200px";
+  }
+  function showMenu(){
+    linkme.style.right = "0";
+  }
+</script>
+  </body>
+</html>
